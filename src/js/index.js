@@ -14,8 +14,8 @@ function render(variables = {}) {
   if (variables.role == null) variables.role = "Nerv Director";
   if (variables.city == null) variables.city = "Tokio 3";
   if (variables.country == null) variables.country = "Japan";
-  if (variables.socialMediaPosition == "position-left")
-    variables.socialMediaPosition = "position-left";
+  if (variables.socialMediaPosition == null)
+    variables.socialMediaPosition = "position-right";
   if (variables.twitter == null) variables.twitter = "tele1313";
   if (variables.github == null)
     variables.github = "terriblehackskeyboard/keyboard";
@@ -62,7 +62,7 @@ window.onload = function() {
     avatarURL:
       "https://pm1.narvii.com/7072/bcaf2c55d9f671da41fd9884bea8c136fe201496r1-259-194v2_uhq.jpg",
     // social media bar position (left or right)
-    socialMediaPosition: "position-left",
+    socialMediaPosition: "position-right",
     // social media usernames
     twitter: null,
     github: null,
